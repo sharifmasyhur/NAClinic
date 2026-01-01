@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @layer base {
   html {
@@ -8,6 +6,7 @@
   }
 
   body {
-    @apply text-gray-900;
+    /* Use the new CSS variable or @apply works correctly here now */
+    @apply text-gray-900; 
   }
 }
